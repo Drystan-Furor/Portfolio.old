@@ -36,7 +36,7 @@ body {
     opacity: 0.5;
     text-decoration: none;
     /*text-transform: capitalize;*/
-    padding: 10px 30px;
+    padding: 10px 3%;
     margin: 0 20px;
     line-height: 80px;
     transition: .5s;
@@ -50,7 +50,7 @@ body {
 
 .home-section {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0 150px;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ body {
 
 .hero-heading {
     color: #fff;
-    font-size: 80px;
+    font-size: 400%;
     /*text-transform: capitalize;*/
     font-weight: 300;
 }
@@ -98,7 +98,7 @@ body {
 .project-section {
     width: 100%;
     min-height: 100vh;
-    padding: 150px 100px 100px;
+    padding: 15% 10% 10%;
     position: fixed;
     top: 0;
     transition: 1s;
@@ -124,7 +124,7 @@ body {
 }
 
 .project-card {
-    height: 400px;
+    height: 70%;
     position: relative;
 }
 
@@ -136,25 +136,26 @@ body {
     left: 0;
     object-fit: cover;
     transition: .5s;
+    border-radius: 10px;
 }
 
 .project-content {
     position: relative;
-    padding: 40px;
+    padding: 4%;
     color: #fff;
     transition: .5s;
     opacity: 0;
 }
 
 .project-title {
-    font-size: 50px;
+    font-size: 250%;
     text-transform: capitalize;
     text-align: center;
     font-weight: 300;
 }
 
 .project-info {
-    margin: 40px;
+    margin: 10%;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -163,7 +164,7 @@ body {
 .project-btn-grp {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 2%;
 }
 
 .project-btn {
@@ -229,10 +230,10 @@ body {
 
 .download-cv-btn {
     position: absolute;
-    bottom: 20px;
+    bottom: 70px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px 20px;
+    padding: 20px 30px;
     color: #fff;
     border: none;
     font-size: 16px;
