@@ -1,0 +1,244 @@
+<!-- ******************************************
+*  Author : Tristan   
+*  Created On : Fri Nov 19 2021
+*  File : portfolio.php
+******************************************* -->
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="Tristan" content="Portfolio">
+    <title>
+        Tristan Arts Portfolio
+    </title>
+    <meta name="description" content="collection of projects and skills">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Projects</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- home section -->
+
+    <section class="home-section active">
+        <h1 class="hero-heading">Hello, I am <br> Tristan Arts</h1>
+        <p class="about-info">
+            Take a look at my Projects or learn more About my skills. It is also possible to Contact me.
+        </p>
+        <img src="img/home.png" class="home-img" alt="">
+    </section>
+
+
+    <!-- project section -->
+    <section class="project-section">
+        <h1 class="project-heading">some of my projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/project-1.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 01 / PHP OOP</h1>
+                    <p class="project-info">
+                        A blogging website with options to create more pages and/or blogs, set up dynamically, using database entries. Editing is protected with a login system. Based on a custom framework and on the Model View Controller principal, initialized trough a Bootstrap.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Drystan-Furor/phpcursus/tree/main/eindopdracht">github repo</button></a>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project-2.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 02 / PHP Web App</h1>
+                    <p class="project-info">
+                        A little app to check text for use of profanity. Counting the amount of profane words and replacing them with decent words. It will check if any new sentence starts with a capital, if not: capitalize the first word of a new sentence + track total corrections.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Drystan-Furor/profanity_caps_check">github repo</button></a>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project-3.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 03 / Webshop</h1>
+                    <p class="project-info">
+                        It shows the concept of an online store, themed around a fish vendor. According to instructions there is a checkout system that shows you your order and payment, each on a new page. From a product list items can be chosen by amount or weight.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Drystan-Furor/h_a_ring">github repo</button></a>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project-4.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 04 / Database MySQL</h1>
+                    <p class="project-info">
+                        Orientation inside a database. CREATE, INSERT, SELECT and INNER JOIN statements. Other parts of this asignment show: modelling, implementing and manipulating a database. Tables, rows, columns, values, primary keys and foreign keys are all covered.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Drystan-Furor/SQL/tree/main/Eindopdracht/Eindopdracht%20Tristan%20Arts/Deel%201/1a/Scripts">github repo</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section -->
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="img/home.png" class="about-img" alt="">
+                <input class="download-cv-btn" type="button" value="download cv" onclick="window.location = 'cv.pdf';">
+
+            </div>
+            <p class="about-info">
+                I am a beginning Software Developer, I followed courses and training to develop my skills. Combining different languages and sharp algorithmics to make something work.
+                <br> Guided by questions as: What do I realy like to do? What gives me energy? What am I good at?
+                <br>I set targets for myself in a Personal Development Plan to turn my hobby into my job. Currently I finished training for Databases, Front-End and Back-End Development. I also want to pursue a Bachelor Degree study in Software Engineering
+                starting early 2022.
+                <br> While working on my goals and targets it is important to me to have a good balance between work and private life, because I like to spend quality time with my loved ones.
+            </p>
+        </div>
+
+        <!-- skills -->
+        <div class="skill-section">
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="img/html.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <p class="skill-info">HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="img/css.png" class="skill-img" alt="">
+                    <div class="skill-level">86%</div>
+                    <h1 class="skill-name">CSS</h1>
+                    <p class="skill-info">CSS is the language to style a HTML document. CSS describes how HTML elements should be displayed. There will always be room for improvement on Flexbox, Grid and Positioning elements.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="img/php.png" class="skill-img" alt="">
+                    <div class="skill-level">92%</div>
+                    <h1 class="skill-name">PHP</h1>
+                    <p class="skill-info">PHP is a scripting language suited to web development. PHP powers everything from blogs up to 74% of all existing websites. Procedural programming is fun, but frameworks and OOP have my interest and benefits from more experience.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="img/symfony.png" class="skill-img" alt="">
+                    <div class="skill-level">34%</div>
+                    <h1 class="skill-name">Symfony</h1>
+                    <p class="skill-info">Symfony is a set of reusable PHP components and a PHP framework to build web applications, APIs, microservices and web services. I am getting trough the tutorials. </p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="img/laravel.png" class="skill-img" alt="">
+                    <div class="skill-level">26%</div>
+                    <h1 class="skill-name">Laravel</h1>
+                    <p class="skill-info">Laravel is a web application framework with expressive, elegant syntax. I am working on my first application with this framework.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="img/loremipsum.png" class="skill-img" alt="">
+                    <div class="skill-level">100%</div>
+                    <h1 class="skill-name">Lorum Ipsum</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus! Quisque viverra sapien tempus bibendum consequat. Fusce non porta tortor. </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- timeline -->
+        <div class="timeline">
+            <h1 class="heading">education and experience</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2021-2022</h1>
+                    <p class="card-detail">Upgrading my skills trough the BIT-Academy, following education at AVANS+, all to improve my skills as Software Developer. Currently completed PHP OOP, JavaScript, MySQL and C# courses.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2020-2021</h1>
+                    <p class="card-detail">Programming, PHP development, HTML websites and other projects like freelance writer of webblog content, newsletters and landinpages filled my time as I pursued several small goals of my Personal development plan.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2016-2021</h1>
+                    <p class="card-detail">Being a forklift driver: Picking orders, managing supplies, tracking inventory, handling customs documentation. Having gained a couplke years of experience my growth as a person had time to make me see I wanted to do things different
+                        in life, and return to my first interest of coding.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2001-2016</h1>
+                    <p class="card-detail">Allround Logistics Worker. In these years I served in different companies developing skills as; teamcoach, QA, supervisor among others. My coding interest remained on minimum level, due to commitment on the workfloor.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2000-2001</h1>
+                    <p class="card-detail">Secondary vocational education. Afterwards I started working in logistics. Basic interest in HTML/CSS and JavaScript. Mainly building computers with hardware parts. Often free time was spent on gaming</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section -->
+    <section class="contact-section">
+        <form class="contact-form" action="mailto:ArtsTristan@gmail.com" method="post" enctype=”multipart/form-data” name=”EmailForm”>
+            <!-- <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea> -->
+            <button type="submit" class="form-submit-btn">Click here to contact me</button>
+        </form>
+
+        <!-- map -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8378.942438456565!2d6.1439432503903735!3d51.3649272557854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c74551fc16772d%3A0x37c685dee7b1529a!2sPastoor%20Stassenstraat%2076%2C%205921%20CV%20Venlo!5e0!3m2!1snl!2snl!4v1641887994174!5m2!1snl!2snl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
